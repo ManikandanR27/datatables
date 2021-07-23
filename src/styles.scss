@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+
+/** Variables & Mixins **/
+
+@import "./assets/scss/utils/variables";
+@import "./assets/scss/utils/mixins";
+@import "./assets/scss/utils/functions";
+@import "./assets/scss/utils/colors";
+
+/** Base Rules **/
+@import "./assets/scss/base/normalize";
+@import "./assets/scss/base/fonts/fonts";
+@import "./assets/scss/base/icons/icons";
+@import "./assets/scss/base/typography";
+@import "./assets/scss/base/colors";
+
+/** Layout **/
+@import "./assets/scss/layout/grid";
+@import "./assets/scss/layout/spacing";
+@import "./assets/scss/layout/utility";
+@import "./assets/scss/layout/visibility";
+
+/** 3rd Party Vendors **/
+@import "./assets/scss/vendors/animate-css/animate";
+@import "./assets/scss/vendors/custom-scrollbar/jquery.mCustomScrollbar";
+@import "./assets/scss/vendors/prism/prism";
+
+/** Animations & Transitions **/
+@import "./assets/scss/utils/animations/fadein";
+@import "./assets/scss/utils/animations/pulse";
+@import "./assets/scss/utils/animations/scale";
+@import "./assets/scss/utils/animations/spin";
+@import "./assets/scss/utils/animations/pulse";
+@import "./assets/scss/utils/animations/waves";
+
+/** Components - Forms **/
+@import "./assets/scss/components/forms/form";
+@import "./assets/scss/components/forms/input"; // for legacy inputs
+@import "./assets/scss/components/forms/checkbox";
+@import "./assets/scss/components/forms/radio";
+@import "./assets/scss/components/forms/textarea"; // for legacy inputs
+@import "./assets/scss/components/forms/select";
+@import "./assets/scss/components/forms/file";
+
+/** Components - Media **/
+@import "./assets/scss/components/media/iframe";
+@import "./assets/scss/components/media/image";
+@import "./assets/scss/components/media/video";
+
+/** Components - Materialize **/
+@import "./assets/scss/components/materialize/badge";
+@import "./assets/scss/components/materialize/box";
+@import "./assets/scss/components/materialize/buttons";
+@import "./assets/scss/components/materialize/cards";
+@import "./assets/scss/components/materialize/chips";
+@import "./assets/scss/components/materialize/collection";
+@import "./assets/scss/components/materialize/lists";
+@import "./assets/scss/components/materialize/table";
+
+/** Components - Interactive & UI **/
+@import "./assets/scss/components/ui/autocomplete";
+@import "./assets/scss/components/ui/carousel";
+@import "./assets/scss/components/ui/collapsible";
+@import "./assets/scss/components/ui/dropdown";
+@import "./assets/scss/components/ui/modal";
+@import "./assets/scss/components/ui/notifications";
+@import "./assets/scss/components/ui/parallax";
+@import "./assets/scss/components/ui/progress";
+@import "./assets/scss/components/ui/range";
+@import "./assets/scss/components/ui/sticky";
+@import "./assets/scss/components/ui/switch";
+@import "./assets/scss/components/ui/tabs";
+@import "./assets/scss/components/ui/tap";
+@import "./assets/scss/components/ui/tooltip";
+@import "./assets/scss/components/ui/datepicker";
+@import "./assets/scss/components/ui/timepicker";
+
+/** Partials  **/
+@import "./assets/scss/partials/dashboard";
+@import "./assets/scss/partials/breadcrumbs";
+@import "./assets/scss/partials/header";
+@import "./assets/scss/partials/footer";
+@import "./assets/scss/partials/nav";
+@import "./assets/scss/partials/navlist";
+@import "./assets/scss/partials/pagination";
+@import "./assets/scss/partials/sidenav";
+
+
+/** Custom Themes **/
+@import "./assets/scss/themes/default";
+@import "./assets/scss/themes/light";
+@import "./assets/scss/themes/dark";
+
+.dataTables_wrapper {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    padding: 15px 15px 15px 15px !important;
+}
+.dataTables_length {
+    display: none !important;
+}
+.dataTable {
+    width: 1400 !important;
+}

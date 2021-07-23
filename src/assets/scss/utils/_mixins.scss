@@ -1,0 +1,16 @@
+/** Various opacity mixins **/
+@mixin opacity-10 {
+  opacity: (1 * 0.1);
+}
+@mixin opacity-25 {
+  opacity: (1 * 0.25);
+}
+@mixin opacity-50 {
+  opacity: (1 * 0.5);
+}
+
+/** Gold background w/ 25% opacity **/
+@mixin opacity-gold-25 {  
+	background-color: $color_gold;
+  opacity: (1 * 0.25);
+}

@@ -1,0 +1,33 @@
+/***************
+    Nav List
+***************/
+.table-of-contents.fixed {
+  position: fixed;
+}
+
+.table-of-contents li {
+  padding: 2px 0;
+}
+
+.table-of-contents a {
+  display: inline-block;
+  font-weight: 300;
+  color: #060E16;
+  padding-left: 16px;
+  height: 2rem;
+  line-height: 2rem;
+  letter-spacing: .4;
+  display: inline-block;
+}
+
+.table-of-contents a:hover {
+  color: #3949ab;
+  padding-left: 13px;
+  border-left: 3px solid #7986cb;
+}
+
+.table-of-contents a.active {
+  font-weight: 500;
+  padding-left: 13px;
+  border-left: 3px solid #3949ab;
+}

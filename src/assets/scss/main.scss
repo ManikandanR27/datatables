@@ -1,0 +1,102 @@
+/** Material Design Components For V3.1 Text Inputs **/
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+@use "@material/dialog";
+
+
+@include textfield.core-styles;
+@include dialog.core-styles;
+
+/** Variables & Mixins **/
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+@import "utils/colors";
+
+/** Base Rules **/
+@import "base/normalize";
+@import "base/fonts/fonts";
+@import "base/icons/icons";
+@import "base/typography";
+@import "base/colors";
+
+/** Layout **/
+@import "layout/grid";
+@import "layout/spacing";
+@import "layout/utility";
+@import "layout/visibility";
+
+/** 3rd Party Vendors **/
+@import "vendors/animate-css/animate";
+@import "vendors/custom-scrollbar/jquery.mCustomScrollbar";
+@import "vendors/prism/prism";
+
+/** Animations & Transitions **/
+@import "utils/animations/fadein";
+@import "utils/animations/pulse";
+@import "utils/animations/scale";
+@import "utils/animations/spin";
+@import "utils/animations/pulse";
+@import "utils/animations/waves";
+
+/** Components - Forms **/
+@import "components/forms/form";
+@import "components/forms/input"; // for legacy inputs
+@import "components/forms/checkbox";
+@import "components/forms/radio";
+@import "components/forms/textarea"; // for legacy inputs
+@import "components/forms/select";
+@import "components/forms/file";
+
+/** Components - Media **/
+@import "components/media/iframe";
+@import "components/media/image";
+@import "components/media/video";
+
+/** Components - Materialize **/
+@import "components/materialize/badge";
+@import "components/materialize/box";
+@import "components/materialize/buttons";
+@import "components/materialize/cards";
+@import "components/materialize/chips";
+@import "components/materialize/collection";
+@import "components/materialize/lists";
+@import "components/materialize/table";
+
+/** Components - Interactive & UI **/
+@import "components/ui/autocomplete";
+@import "components/ui/carousel";
+@import "components/ui/collapsible";
+@import "components/ui/dropdown";
+@import "components/ui/modal";
+@import "components/ui/notifications";
+@import "components/ui/parallax";
+@import "components/ui/progress";
+@import "components/ui/range";
+@import "components/ui/sticky";
+@import "components/ui/switch";
+@import "components/ui/tabs";
+@import "components/ui/tap";
+@import "components/ui/tooltip";
+@import "components/ui/datepicker";
+@import "components/ui/timepicker";
+
+/** Partials  **/
+@import "partials/dashboard";
+@import "partials/breadcrumbs";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/nav";
+@import "partials/navlist";
+@import "partials/pagination";
+@import "partials/sidenav";
+
+
+/** Custom Themes **/
+@import "themes/default";
+@import "themes/light";
+@import "themes/dark";
+//@import "themes/redesign";
+
