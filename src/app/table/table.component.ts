@@ -81,4 +81,7 @@ dtOptions: DataTables.Settings = {};
       }
     });
   }
+  filteredList() {
+    this.router.navigate(['list']);
+  }
 }

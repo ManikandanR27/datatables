@@ -1,0 +1,19 @@
+
+  <h1 class="ml-1">List with Filter</h1>
+
+<div class="col-md-12 card">
+    <div class= "col-md-6">
+        <form [formGroup]="listForm">
+            <input type="text" formControlName="search" placeholder="Search" (input)="sear($event)" />
+        </form>
+    </div>
+<!-- </div>
+
+<div class="col-md-12"> -->
+    <div class="col-md-6 card">
+  <div class="collection"  *ngFor="let data of list">
+    <a  class="collection-item">{{data.displayName}}</a>
+    <a  class="collection-item" *ngIf="data.length<1">No Record Found</a>
+    </div>
+  </div>
+  </div>

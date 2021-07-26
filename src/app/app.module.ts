@@ -7,16 +7,21 @@ import { AppComponent } from './app.component';
 import { TableComponent } from './table/table.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ListComponent } from './list/list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     DataTablesModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
